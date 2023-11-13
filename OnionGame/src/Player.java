@@ -3,15 +3,16 @@ public class Player {
     private String name;
     private int money;
     private int reputation;
-
-
+    private int onions;
+ 
     public Player() {
     }
 
-    public Player(String name, int money, int reputation) {
+    public Player(String name, int money, int reputation, int onions) {
         this.name = name;
         this.money = money;
         this.reputation = reputation;
+        this.onions = onions;
     }
 
 
@@ -38,6 +39,13 @@ public class Player {
 
     public void setReputation(int reputation) {
         this.reputation = reputation;
+    }
+    public int getOnions() {
+        return onions;
+    }
+
+    public void setOnions(int onions) {
+        this.onions = onions;
     }
 
     }

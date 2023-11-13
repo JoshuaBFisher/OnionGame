@@ -4,7 +4,7 @@ public class Burger {
     private int flavor;
     private int size;
     private int price;
-
+ 
     public Burger() {
     }
 

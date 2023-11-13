@@ -5,7 +5,7 @@ public class Customer {
     private int hunger;
     private int pickiness;
     private int allergy;
-
+ 
     public Customer() {
     }
 
