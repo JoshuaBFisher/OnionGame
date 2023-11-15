@@ -14,7 +14,7 @@ public class Customer {
         this.aggressiveness = aggressiveness;
         this.hunger = hunger;
         this.pickiness = pickiness;
-        this.allergy = allergy;
+        this.allergy = allergy; //allergy is useless
     }
 
     public String getName() {

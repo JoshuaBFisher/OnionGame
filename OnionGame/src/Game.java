@@ -1,10 +1,11 @@
-
+import java.util.*;  
 public class Game {
 	 
 	public static void main(String[] args) {
+		
 		System.out.println("Hello, what is your name?");
 		//userinput name here
-		System.out.println("You are the prowd owner of Fatty's Burgers,");
+		System.out.println("Welcome! You are the prowd owner of Fatty's Burgers,");
 		System.out.println("a newly opened small business that sells quality burgers!");
 		System.out.println("But...");
 		System.out.println("You have a special ability.");
@@ -17,8 +18,7 @@ public class Game {
 		System.out.println("And make as much money as possible (onions are crucial)");
 		System.out.println("...");
 		System.out.println("The doors are open! here comes your first customer!");
-Tutorial();
-allergyCheck();
+		TutorialTodd();
 noticeOnions();
 newCustomer();
 howManyOnions();
@@ -27,8 +27,9 @@ onionMultiplier();
 	}
 
 	private static void howManyOnions() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("How many Onions would you like to sneak onto");
+		Scanner sc= new Scanner(System.in);
+		int a= sc.nextInt();  
 	}
 
 	private static void onionMultiplier() {
@@ -51,14 +52,11 @@ onionMultiplier();
 		
 	}
 
-	private static void allergyCheck() {
-		// TODO Auto-generated method stub
-		
-	}
 
-	private static void Tutorial() {
+
+	private static void TutorialTodd() {
 		
-		System.out.println("yurr");
+		System.out.println("");
 	}
 
 }

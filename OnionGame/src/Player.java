@@ -5,7 +5,7 @@ public class Player {
     private int reputation;
     private int onions;
  
-    public Player() {
+    public Player() { 
     }
 
     public Player(String name, int money, int reputation, int onions) {
